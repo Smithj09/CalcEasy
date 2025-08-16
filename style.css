@@ -69,7 +69,11 @@ body{
 .enter-button img:active{
   width: 11rem;
 }
-
+.enter-button:focus,
+.enter-button a:focus {
+    outline: none;       /* Removes the focus outline */
+    box-shadow: none;    /* Removes any shadow added by the browser */
+}
 /* Bounce keyframes */
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
