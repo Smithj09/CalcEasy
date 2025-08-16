@@ -46,11 +46,11 @@ margin: 0;
 }
 .content h1{
     font-weight: 900;
-    font-size: 4em;
+    font-size: 64px;
     color:#1E3A8A;
 }
 .logo img{
-    width: 17rem;
+    width: 272px;
 }
 
 .enter-button{
